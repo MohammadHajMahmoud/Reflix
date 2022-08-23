@@ -14,7 +14,7 @@ class Movie extends Component {
                 {!isRented ?
                     <div className='movie'>
                         <div> <Link to={'/movies/' + movie.id}>
-                            <img src={movie.img} style={{ height: '300px', width: '300px' }} alt=''></img>
+                            <img src={movie.img} className='imgMovie'></img>
                         </Link></div>
                         <div className='btnCon'> <button className='btn' onClick={this.toggleRented}>+</button></div>
                         
@@ -22,7 +22,7 @@ class Movie extends Component {
                     :
                     <div className='movie'>
                         <div> <Link to={'/movies/' + movie.id}>
-                            <img src={movie.img} style={{ height: '300px', width: '300px' }} alt=''></img>
+                            <img src={movie.img} className='imgMovie'></img>
                         </Link></div>
                         <div className='btnCon'> <button className='btn' onClick={this.toggleRented}>-</button></div>
                     </div>

@@ -8,7 +8,7 @@ class MovieDetail extends Component {
         return (
             <div className='movie-details'>
                 <p className='movie-title'>{movie.title} ({movie.year})</p>
-                <img src={movie.img} style={{ height: '400px', width: '400px' }} alt=''></img>
+                <img src={movie.img} className='imgDes' ></img>
                 <p className='movie-description'>{movie.descrShort}</p><br></br>
             </div>
         );

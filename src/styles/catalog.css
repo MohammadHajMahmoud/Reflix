@@ -35,5 +35,9 @@ justify-content: center;
     color: black;
 }
 .movie{
-    margin: 0 10px;
+    margin: 5px 10px;
+}
+.imgMovie{
+    width: 300px;
+    height: 300px;
 }

@@ -11,7 +11,7 @@ class Home extends React.Component {
                 <div id="usersContainer">
                 {this.props.users.map(user => {
                     return (
-                           <div className="user"><Link id='lin' to='/Catalog'>{user.name}</Link></div> 
+                           <div style={{backgroundColor :user.color}} className="user"><Link id='lin' to='/Catalog'>{user.name}</Link></div> 
                            )
                 })}
             </div>
