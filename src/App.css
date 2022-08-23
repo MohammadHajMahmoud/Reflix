@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+.header{
+text-decoration: none;
+color: white;
+}
+.home-catalog{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    position : relative;
+    left: 7px;
+    top : 0px;
+    text-decoration: none;
+}
+#reflix{
+    color: aqua;
+position: absolute;
+top: 7px;
+right: 7px;
+}
